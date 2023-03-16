@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 930px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pikachu img {
+  margin-top: 20px;
+  width: 300px;
+  height: auto;
+}
+
+input {
+  width: 350px;
+  border-bottom: solid 2px rgba(200, 200, 255, 0.5);
+  box-shadow: 0 0 10px rgb(20, 20, 233), 0 0 55px;
+  height: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp11203758.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+.tarjeta {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  border: 2px solid black;
+  height: 360px;
+  width: 280px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6%;
+  background-image: url("/assets/FONDO DORADO 2.jpg");
+  background-size: cover;
+}
+.tarjeta .info {
+  margin-bottom: 20px;
+}
+.tarjeta img {
+  height: 100%;
+}
+
+.poke-id {
+  margin-right: 215px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.info {
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+@keyframes changeWidth {
+  0% {
+    scale: 0;
+  }
+  50% {
+    scale: 1;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.superPosicion {
+  margin-top: -50px;
+  width: 235px;
+  height: 150px;
+}
+.superPosicion img {
+  animation: changeWidth 6.65s ease-in 1;
+}
+
+.container .tarjeta:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.964);
+}
+
+.botonesPaginacion {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.botonesPaginacion button {
+  width: 200px;
+  height: 50px;
+}
+.botonesPaginacion .next {
+  border-radius: 25px 0 25px 25px;
+}
+.botonesPaginacion .prev {
+  border-radius: 0 25px 25px 25px;
+}/*# sourceMappingURL=style.css.map */

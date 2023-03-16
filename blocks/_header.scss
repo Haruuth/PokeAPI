@@ -1,0 +1,34 @@
+header {
+  height: 930px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // margin-bottom: 10px;
+  
+}
+.pikachu img{
+  margin-top: 20px;
+  width: 300px;
+  height: auto;
+}
+input {
+  width: 350px;
+  border-bottom: solid 2px rgba(200, 200, 255, 0.5);
+  box-shadow: 0 0 10px rgb(20 20 233), 0 0 55px;
+  height: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+body{
+  background-image: url("https://wallpapercave.com/wp/wp11203758.jpg");
+  background-size: cover;
+  // background-position: center;
+  background-attachment:fixed;
+}
+
+
+.info{
+  font-size: 20px;
+}
+
